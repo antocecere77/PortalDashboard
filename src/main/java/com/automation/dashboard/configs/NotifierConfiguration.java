@@ -16,7 +16,7 @@ import de.codecentric.boot.admin.server.notify.Notifier;
 import de.codecentric.boot.admin.server.notify.RemindingNotifier;
 import de.codecentric.boot.admin.server.notify.filter.FilteringNotifier;
 
-@Configuration
+//@Configuration
 public class NotifierConfiguration {
     private final InstanceRepository repository;
     private final ObjectProvider<List<Notifier>> otherNotifiers;
